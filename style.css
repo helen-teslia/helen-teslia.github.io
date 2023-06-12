@@ -1,0 +1,237 @@
+/* #003049
+#EAE2BA
+#f18227
+#d62828 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EAE2BA;
+    color: #003049;
+    width: 100%;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #003049;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    /* overflow: hidden; */
+}
+.logo{
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 45px;
+    font-style: normal;
+    color: #EAE2BA;
+    position: absolute;
+   /* right: 85.28%;*/
+    bottom: 10px;
+    left: 5%;
+}
+.logo img{
+    position: relative;
+    left: -30%;
+    bottom: -15px;
+    height: 80px;
+}
+nav {
+    position: relative;
+    top: 50px;
+    right: 240px;
+    float: right;
+    /* left: 33.82%; */
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    color: #EAE2BA;
+    font-style: normal;
+}
+nav ul li a:hover{
+    color: #f18227;
+    font-style: normal;
+}
+#current{
+    border-radius: 10px;
+    width: 90px;
+    box-shadow: 0 17px 0 -4px #d62828;
+}
+h1{
+    position: relative;
+    font-family: "Comfortaa";
+    font-size: 96px;
+}
+button{
+    position: relative;
+    top: 50px;
+    width: 230px;
+    height: 90px;
+    font-size: 36px;
+    margin: 10px;
+    border-radius: 50px;
+}
+img{
+    width: 600px;
+    position: relative;
+}
+.page1{
+    position: relative;
+    height: 700px;
+    width: 80%;
+    background-color: #f18227;
+    color: #003049;
+    padding: 140px 10% 40px;
+}
+.page1 img{
+    float: left;
+}
+.page1 p{
+    position: relative;
+    font-family: "Roboto";
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.page1_1_1{
+    /* position: relative;*/
+    top: 135px;
+    left: 750px;
+    float: right;
+    width: 50%;
+}
+.page1_1_1 #signUp{
+    color: #f18227;
+    background-color: #003049;
+    border: 3px solid #003049;
+}
+.page1_1_1 #logIn{
+    color: #003049;
+    background-color: #f18227;
+    border: 3px solid #003049;
+}
+.page1_1_1 #signUp:hover{
+    color: #EAE2BA;
+    background-color: #003049;
+    border: 3px solid #003049;
+}
+.page1_1_1 #logIn:hover{
+    color: #003049;
+    background-color: #EAE2BA;
+    border: 3px solid #003049;
+}
+.page3{
+    position: relative;
+    height: 700px;
+    width: 80%;
+    background-color: #EAE2BA;
+    padding: 70px 10%;
+    color: #003049;
+}
+.page2 img{
+    float: right;
+}
+.page2 p{
+    position: relative;
+    font-family: "Roboto";
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.page2_1_1{
+    text-align: right;
+    top: 135px;
+    float: left;
+    width: 40%;
+}
+.page2 button{
+    color: #EAE2BA;
+    background-color: #003049;
+    border: 3px solid #EAE2BA;
+}
+.page2 button:hover{
+    color:#003049;
+    background-color: #EAE2BA;
+    border: 3px solid #003049;
+}
+.page4{
+    position: relative;
+    height: 700px;
+    width: 80%;
+    background-color: #d62828;
+    padding: 70px 10%;
+    color: #EAE2BA;
+}
+.page3 img{
+    float: left;
+}
+.page3 p{
+    position: relative;
+    font-family: "Roboto";
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.page3_1_1{
+    /* position: relative;*/
+    top: 135px;
+    left: 750px;
+    float: right;
+    width: 50%;
+}
+.page3 button:hover{
+    color: #EAE2BA;
+    background-color: #003049;
+    border: 3px solid #EAE2BA;
+}
+.page3 button{
+    color:#003049;
+    background-color: #EAE2BA;
+    border: 3px solid #003049;
+}
+.page2{
+    position: relative;
+    height: 700px;
+    width: 80%;
+    background-color: #003049;
+    color:#EAE2BA;
+    padding: 70px 10%;
+}
+.page4 img{
+    float: right;
+}
+.page4 p{
+    position: relative;
+    font-family: "Roboto";
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.page4_1_1{
+    text-align: right;
+    top: 135px;
+    float: left;
+    width: 40%;
+}
+.page4 button{
+    color: #EAE2BA;
+    background-color: #d62828;
+    border: 3px solid #EAE2BA;
+}
+.page4 button:hover{
+    color:#d62828;
+    background-color: #EAE2BA;
+    border: 3px solid #d62828;
+}
